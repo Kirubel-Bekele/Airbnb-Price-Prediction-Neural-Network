@@ -1,5 +1,6 @@
 # Harnessing Neural Networks for Airbnb Home Price Predictions
 
+
 ## Introduction
 
 In the short-term rental economy, Airbnb stands at the forefront, revolutionizing how people travel and experience new destinations through their online marketplace for listings. This project dives into analyzing a dataset of Airbnb listings from Washington, DC, gathered in July 2023. Our goal is to construct a series of predictive models that accurately forecast the pricing of these listings. Utilizing neural network and regression analysis, we aim to decode the factors that influence listing prices on Airbnb's platform. This endeavor not only seeks to enhance our understanding of the rental marketplace dynamics but also to equip potential hosts with the knowledge to competitively price their listings, thereby optimizing their earnings and ensuring a better match between hosts and guests in this bustling digital ecosystem.

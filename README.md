@@ -17,10 +17,12 @@ Following the initial data preprocessing, we allocated 70% of our dataset to tra
 ## Model Training, Evaluation & Selection
 
 We designed four distinct neural network models, each tailored to parse the intricacies of the Airbnb market. The development of NN2 introduces a nuanced architecture with two hidden layers, hosting three and two neurons, and employs the rectified linear unit (ReLU) as its activation mechanism. Aligning with NN1 in fundamental configurations like stepmax and linear output adjustments, NN2 sets itself apart with ReLU activation and a specific hidden layer configuration (hidden=c(3,2)). Post-training, NN2 undergoes evaluations akin to NN1, including structure visualization and performance metrics analysis. Adjustments are made to NN2’s test data predictions for price scale comparison, with visual analysis underscoring its enhanced precision in price forecasting, a testament to its complex architecture and selected activation strategy.
+![the neural network](/NN2.png)
 
 The third and fourth models, NN_caret1 and NN_caret2, were developed using the 'caret' package, which streamlines model training and evaluation. NN_caret1 was calibrated with a default tuning setup, while NN_caret2 was fine-tuned using a custom grid to determine the optimal combination of neurons and decay. To assess the performance of each model, we applied 10-fold cross-validation, ensuring robust validation through multiple training and evaluation cycles.
 
 Upon review of the RMSE metrics and analysis from the plotted prediction vs actual price graphs, we observed that both NN1 and NN_caret1 models exhibited superior performance with lower root mean square error (RMSE) and higher R-squared values, indicating a tighter fit to the actual listing prices. The comparative performance of these models can be visually inspected in Figures 3 and 4 of the Appendix, which depict the scatter plots of predicted versus actual prices for NN_caret1 and NN1, respectively. NN1, in particular, displayed a balance of complexity and performance with an RMSE of approximately 99.49 and an R-squared of 0.464. NN_caret1 followed closely, with an RMSE of around 99.04 and an R-squared of 0.469, suggesting its predictions were marginally more aligned with the actual prices.
+![NN4 Caret Prediction vs Actual](NN4%20caret%20prediction%20vs%20actual.png)
 
 ## Regression comparison
 

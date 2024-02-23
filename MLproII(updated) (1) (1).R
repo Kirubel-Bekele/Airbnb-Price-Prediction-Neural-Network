@@ -1,7 +1,3 @@
-# KIRUBEL BEKELE
-# LJ RUSSEL
-
-
 # Load necessary libraries
 library(caret) # For data splitting, pre-processing, and feature engineering
 library(neuralnet) # For neural network modeling
